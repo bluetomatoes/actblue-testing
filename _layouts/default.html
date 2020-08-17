@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+         <div data-ab-form
+ data-ab-token="zDZFQMP68XDJTAQhukMP7ntB"
+ data-ab-height="auto"
+>
+  <!-- Fall-back content (in case the embeddable doesn't load) -->
+  <a href="https://secure.actblue.com/donate/sunriseweb">Donate</a>
+</div>
+
+        {{ content }}
+
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
