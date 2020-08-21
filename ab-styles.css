@@ -48,9 +48,9 @@
 
 /* Selectable buttons: amounts, recurring, etc. */
 
---select-button-color-text: #4D5666;
+--select-button-color-text: #1C2345;
 
---select-button-color-background: #CCD3DE;
+--select-button-color-background: #E6E9ED;
 
 --select-button-border: 0;
 
@@ -60,7 +60,7 @@
 
 --select-button-font-size: 1rem;
 
---select-button-selected-color-text: #FFF;
+--select-button-selected-color-text: var(--color-text);
 
 --select-button-selected-color-background: var(--color-primary-brand);
 
@@ -72,7 +72,7 @@
 
 --input-border-size: 1px;
 
---input-border-color: #CCD3DE;
+--input-border-color: #657287;
 
 --input-border-focus-color: var(--color-primary-brand);
 
