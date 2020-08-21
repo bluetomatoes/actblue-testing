@@ -2,10 +2,11 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {%- include head.html -%}
-
+<head>
+    <script src="https://secure.actblue.com/cf/assets/actblue.js" async></script>
+  </head>
   <body>
 
-    {%- include header.html -%}
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
@@ -16,8 +17,15 @@
   <!-- Fall-back content (in case the embeddable doesn't load) -->
   <a href="https://secure.actblue.com/donate/sunriseweb">Donate</a>
 </div>
+<!-- This div should be included in the page where you want the button to appear. -->
+<div data-ab-button
+ data-ab-token="zDZFQMP68XDJTAQhukMP7ntB"
+>
+  <!-- Fall-back content (in case the embeddable doesn't load) -->
+  <a href="https://secure.actblue.com/donate/sunriseweb">Donate</a>
+</div>
 
-        {{ content }}
+  
 
       </div>
     </main>
