@@ -36,7 +36,7 @@
 
 --advance-button-background-color: var(--color-primary-brand);
 
---advance-button-color: #FFF;
+--advance-button-color: var(--color-text);
 
 --advance-button-border: 0;
 
