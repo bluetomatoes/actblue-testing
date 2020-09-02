@@ -48,7 +48,7 @@
 
 /* Selectable buttons: amounts, recurring, etc. */
 
---select-button-color-text: #1C2345;
+--select-button-color-text: var(color-text);
 
 --select-button-color-background: #E6E9ED;
 
