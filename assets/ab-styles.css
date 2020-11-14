@@ -20,11 +20,11 @@
 
 --form-padding: 1.5rem;
 
---border-radius: 4px;
+--border-radius: 1px;
 
 /* Border around entire form */
 
---form-border: 1px solid #E6E9ED;
+--form-border: 1.5px solid #E6E9ED;
 
 /* Form header and footer areas */
 
@@ -50,7 +50,7 @@
 
 --select-button-color-text: var(color-text);
 
---select-button-color-background: #E6E9ED;
+--select-button-color-background: #fffffb;
 
 --select-button-border: 0;
 
