@@ -8,7 +8,7 @@
 
 --color-error: #DB0A5B;
 
---color-background: #FFF;
+--color-background: #fffffb;
 
 --color-subtle-background: #F7F8FA;
 
@@ -50,7 +50,7 @@
 
 --select-button-color-text: var(color-text);
 
---select-button-color-background: #fffffb;
+--select-button-color-background: #E6E9ED;
 
 --select-button-border: 0;
 
